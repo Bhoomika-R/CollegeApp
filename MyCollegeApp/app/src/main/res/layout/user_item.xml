@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_item_profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_person_24"
+
+        />
+
+    <TextView
+        android:id="@+id/user_item_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_item_profile_image"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toEndOf="@id/user_item_profile_image"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:text="Username"
+        android:textSize="18sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_on_user_item"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/user_item_user_name"
+        android:layout_marginLeft="-15dp"
+        android:visibility="gone"
+
+        android:layout_toEndOf="@id/user_item_profile_image"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#05df29"
+        app:civ_border_width="10dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_off_user_item"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/user_item_user_name"
+        android:layout_marginLeft="-15dp"
+        android:visibility="gone"
+        android:layout_toEndOf="@id/user_item_profile_image"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#bfbfbf"
+        app:civ_border_width="10dp" />
+
+    <TextView
+        android:id="@+id/user_item_last_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_item_user_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:maxLines="1"
+        android:text="Hello "
+        android:textColor="@color/darkGreen" />
+
+    <ImageView
+        android:id="@+id/user_item_unread_chat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_baseline_mark_chat_unread_18"
+        />
+
+
+</RelativeLayout>

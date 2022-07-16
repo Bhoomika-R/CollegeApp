@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F1E9E2"
+    android:orientation="vertical"
+    tools:context=".ui.chatSection.Fragments.ChatsFragment">
+
+
+   <TextView
+       android:id="@+id/text_unread"
+       android:background="@android:color/holo_blue_dark"
+       android:textColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:paddingStart="5dp"
+       android:paddingEnd="5dp"
+       android:text="You have some unread messages, please check the chats list" />
+   <TextView
+       android:id="@+id/text_unread2"
+       android:background="@android:color/holo_blue_dark"
+       android:textColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:paddingStart="5dp"
+       android:paddingEnd="5dp"
+       android:drawableStart="@drawable/ic_baseline_mark_chat_unread_18"
+       android:text=" Deplicts unread messages"
+       android:gravity="center_vertical"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:textSize="30sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chats_fragment_recycler_view_students"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty"
+        android:textSize="30sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chats_fragment_recycler_view_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

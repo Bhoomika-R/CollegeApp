@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/btnsignin_gradient.xml" value="0.2109375" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/cake_profile.xml" value="0.215" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/fab_shape.xml" value="0.208" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.208" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/ic_baseline_label_important_24.xml" value="0.208" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/school_profile.xml" value="0.215" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/drawable/students_icon.xml" value="0.208" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_club.xml" value="0.2359375" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_delete.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_delete_student.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_delete_user.xml" value="0.1" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_faculty.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_sport.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_student.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_teacher.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_add_topper.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_admin_profile.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_club.xml" value="0.20244565217391305" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_clubs_detail.xml" value="0.1" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit.xml" value="0.2359375" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_club.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_faculty.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_page.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_sport.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_student.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_edit_teacher.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_main.xml" value="0.17300724637681159" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sign_up_step1.xml" value="0.264" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sign_up_step11.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sign_up_step2.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sign_up_step3.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sign_up_step4.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sports.xml" value="0.1" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_sports_detail.xml" value="0.14736842105263157" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_student.xml" value="0.13020833333333334" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_teacher.xml" value="0.13020833333333334" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_topper_list.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_toppers.xml" value="0.2" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/activity_verify_otp.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/club_and_sport_list_item.xml" value="0.14074074074074075" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/fab_shape.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/layout_recycler_view_toppers_list.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/layout/user_item.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/menu/logout_menu.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/menu/popup_menu_toppers_list.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/menu/popup_menu_user.xml" value="0.25" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/mipmap-anydpi-v26/ic_launcher_.xml" value="0.129" />
+        <entry key="..\:/AS project/AdminDashboard/AdminDashboard/app/src/main/res/mipmap-anydpi-v26/ic_launcher__round.xml" value="0.129" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

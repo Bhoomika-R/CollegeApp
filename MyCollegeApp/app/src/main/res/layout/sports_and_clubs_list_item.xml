@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="@dimen/listItemSize">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blueA100"
+        android:elevation="10dp" />
+
+    <TextView
+        android:id="@+id/teacherOrClubOrSportName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/listItemNameLabel"
+        android:layout_margin="8dp"
+        android:autoSizeTextType="uniform"
+        android:elevation="10dp"
+        android:fontFamily="serif"
+        android:text="Teacher Name"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/imageView" />
+
+    <TextView
+        android:id="@+id/teacherDesignationOrClubGenreOrSportType"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        android:autoSizeTextType="uniform"
+        android:elevation="10dp"
+        android:text="Designation"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/teacherOrClubOrSportName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/teacherOrClubOrSportName"
+        app:layout_constraintTop_toBottomOf="@+id/teacherOrClubOrSportName"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

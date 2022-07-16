@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/relative_layout_right"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="40dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/profile_image_chat_item_right"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"/>
+
+
+    <ImageView
+        android:id="@+id/photo_image_view_chat_item_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_image_chat_item_right"
+        android:layout_below="@id/date_and_time_chat_item_right"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="true"/>
+
+
+    <TextView
+        android:id="@+id/date_and_time_chat_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_image_chat_item_right"
+        android:layout_alignParentEnd="true"
+        android:text="This is for date and time"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/show_message_chat_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_and_time_chat_item_right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/profile_image_chat_item_right"
+        android:background="@drawable/background_right"
+        android:padding="8dp"
+        android:clickable="true"
+        android:text="Hello"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_seen_chat_item_right"
+        android:layout_below="@id/show_message_chat_item_right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
+
+</RelativeLayout>

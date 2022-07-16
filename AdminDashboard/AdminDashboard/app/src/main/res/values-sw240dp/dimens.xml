@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profileImageSize">100dp</dimen>
+    <dimen name="profileInitials">40sp</dimen>
+    <dimen name="profileFabMargin">5dp</dimen>
+    <dimen name="profileFabMarginBottom">3dp</dimen>
+    <dimen name="profileName">20sp</dimen>
+    <dimen name="profileCardViewHeight">70dp</dimen>
+    <dimen name="profileCardViewMargin">5dp</dimen>
+    <dimen name="profileCardViewLabel">15sp</dimen>
+    <dimen name="profileCardViewText">13sp</dimen>
+    <dimen name="profileMarginTop">0dp</dimen>
+    <dimen name="profilePaddingLeft">30dp</dimen>
+    <dimen name="profileIconImageSize">25dp</dimen>
+    <dimen name="profileInfoMarginTop">5dp</dimen>
+    <dimen name="collegeName">24sp</dimen>
+    <dimen name="collegeStats">10sp</dimen>
+    <dimen name="listItemSize">60dp</dimen>
+    <dimen name="listItemNameLabel">22dp</dimen>
+    <dimen name="topperSectionImage">34dp</dimen>
+    <dimen name="topperSectionPadding">5dp</dimen>
+    <dimen name="aboutUsImage">45dp</dimen>
+    <dimen name="aboutUsText">12dp</dimen>
+    <dimen name="aboutUsHeading">17dp</dimen>
+    <dimen name="aboutUsMargin">5dp</dimen>
+    <dimen name="collegeMessageSender">7sp</dimen>
+    <dimen name="collegeMessage">15sp</dimen>
+    <dimen name="collegeMessageMargin">4dp</dimen>
+    <dimen name="topperListItemPhoto">50dp</dimen>
+    <dimen name="topperListItemName">15sp</dimen>
+    <dimen name="topperListItemUSNCGPA">10sp</dimen>
+    <dimen name="topperListItemMargin">5dp</dimen>
+    <dimen name="teacherDetailTeacherNameLabel">15sp</dimen>
+    <dimen name="teacherDetailLabels">10sp</dimen>
+    <dimen name="teacherDetailMarginCardSides">10dp</dimen>
+    <dimen name="teacherDetailMarginCardTop">8dp</dimen>
+    <dimen name="teacherDetailInnerMargin">4dp</dimen>
+    <dimen name="teacherDetailInnerPadding">2dp</dimen>
+
+</resources>

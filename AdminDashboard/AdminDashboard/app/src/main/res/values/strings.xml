@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">My College App Admin</string>
+    <string name="usernameReg">Username</string>
+    <string name="emailReg">Email</string>
+    <string name="passwordReg">Password</string>
+    <string name="sign_upReg">Sign up</string>
+    <string name="sign_inLog">Sign in</string>
+    <string name="signin_redirect">Already a member? Sign in!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signup_redirect">Don\'t have an account? </string>
+    <string name="register_here"> Register here!</string>
+    <string name="join">Join</string>
+    <string name="us">Us</string>
+    <string name="selectRole">Select your role</string>
+    <string name="next">next</string>
+    <string name="enter_name">Name</string>
+    <string name="reg_id">Reg. Number</string>
+    <string name="select_branch">Select your branch</string>
+    <string name="select_sem">Select your semester</string>
+    <string name="enter_phone_number">Enter mobile number</string>
+    <string name="phone">Phone</string>
+    <string name="reenter_password">Re-enter Password</string>
+    <string name="code_text">CO\nDE</string>
+    <string name="verification_text">VERIFICATION</string>
+    <string name="otp_description">Enter OTP sent to</string>
+    <string name="verify_code">verify code</string>
+    <string name="select_gender">Select your gender</string>
+    <string name="select_dob">Select your DOB</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="forgot_password_instructions">Enter Reg. ID and mobile number linked with the account</string>
+    <string name="reset">Reset</string>
+    <string name="password">Password</string>
+    <string name="successfully">Successfully</string>
+    <string name="updated">Updated</string>
+    <string name="sem">Semester</string>
+    <string name="tech_clubs">Tech Clubs</string>
+    <string name="non_tech_clubs">Non Tech Clubs</string>
+    <string name="toppers_list">Toppers List</string>
+    <string name="college_messages">College Messages</string>
+    <string name="send_button_label">Send</string>
+    <string name="type_a_message">Type a message here...</string>
+
+
+    <string-array name="role_spinner">
+        <item>Student</item>
+        <item>Faculty</item>
+    </string-array>
+
+    <string-array name="branch_spinner">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>ISE</item>
+        <item>ME</item>
+        <item>BT</item>
+        <item>MT</item>
+        <item>AU</item>
+    </string-array>
+
+    <string-array name="clubs_spinner">
+        <item>Tech</item>
+        <item>Non Tech</item>
+    </string-array>
+
+    <string-array name="sports_gender_spinner">
+        <item>Men</item>
+        <item>Women</item>
+    </string-array>
+
+    <string-array name="sports_type_spinner">
+        <item>Team</item>
+        <item>Individual</item>
+    </string-array>
+</resources>

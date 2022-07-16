@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <dimen name="collegeName">36sp</dimen>-->
+    <dimen name="profileInitials">60sp</dimen>
+    <dimen name="profileFabMargin">36dp</dimen>
+    <dimen name="profileFabMarginBottom">10dp</dimen>
+<!--    <dimen name="collegeStats">28sp</dimen>-->
+    <dimen name="profileImageSize">150dp</dimen>
+    <dimen name="profileName">35sp</dimen>
+    <dimen name="profileCardViewHeight">120dp</dimen>
+    <dimen name="profileCardViewMargin">10dp</dimen>
+    <dimen name="profileCardViewLabel">24sp</dimen>
+    <dimen name="profileCardViewText">19sp</dimen>
+    <dimen name="profileMarginTop">35dp</dimen>
+    <dimen name="profilePaddingLeft">45dp</dimen>
+    <dimen name="profileIconImageSize">36dp</dimen>
+    <dimen name="profileInfoMarginTop">15dp</dimen>
+    <dimen name="listItemSize">78dp</dimen>
+<!--    <dimen name="listItemNameLabel">30dp</dimen>-->
+    <dimen name="clubName">30sp</dimen>
+    <dimen name="description">21sp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tableContent">15sp</dimen>
+    <dimen name="labelSize">12sp</dimen>
+    <dimen name="listItemNameLabel">40dp</dimen>
+    <dimen name="collegeName">34sp</dimen>
+    <dimen name="collegeStats">18sp</dimen>
+    <dimen name="topperSectionImage">64dp</dimen>
+    <dimen name="topperSectionPadding">10dp</dimen>
+    <dimen name="aboutUsImage">75dp</dimen>
+    <dimen name="aboutUsText">20dp</dimen>
+    <dimen name="aboutUsHeading">25dp</dimen>
+    <dimen name="aboutUsMargin">10dp</dimen>
+    <dimen name="collegeMessageSender">14sp</dimen>
+    <dimen name="collegeMessage">22sp</dimen>
+    <dimen name="collegeMessageMargin">8dp</dimen>
+    <dimen name="topperListItemPhoto">80dp</dimen>
+    <dimen name="topperListItemName">28sp</dimen>
+    <dimen name="topperListItemUSNCGPA">20sp</dimen>
+    <dimen name="topperListItemMargin">10dp</dimen>
+    <dimen name="teacherDetailTeacherNameLabel">20sp</dimen>
+    <dimen name="teacherDetailLabels">15sp</dimen>
+    <dimen name="teacherDetailMarginCardSides">20dp</dimen>
+    <dimen name="teacherDetailMarginCardTop">16dp</dimen>
+    <dimen name="teacherDetailInnerMargin">8dp</dimen>
+    <dimen name="teacherDetailInnerPadding">5dp</dimen>
+
+</resources>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.teachers.TeachersDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/text_background"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/text_background">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyNameCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyNameLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="NAME"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailTeacherNameLabel"
+
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="SOMYA MADAM"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailTeacherNameLabel"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyNameLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyDesignationCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/facultyNameCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyDesignationLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="DESIGNATION"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyDesignation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="Associate Professor"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyDesignationLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyDepartmentCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/facultyDesignationCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyDepartmentLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="DEPARTMENT"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyDepartment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="CSE"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyDepartmentLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyEmailCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/facultyDepartmentCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyEmailLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="EMAIL"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="somya.oxford@gmail.com"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyEmailLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyContactNumberCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/facultyEmailCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyContactNumberLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="CONTACT NUMBER"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyContactNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="9988522110"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyContactNumberLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/facultyQualificationsCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#313335"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/facultyContactNumberCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/facultyQualificationsLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="Qualifications"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/facultyQualifications"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="BE, ME, PHD"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/facultyQualificationsLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/teacherDetailInnerMargin"
+                    app:layout_constraintTop_toBottomOf="@id/facultyQualificationsCardView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_item_profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_person_24"
+
+        />
+
+    <TextView
+        android:id="@+id/user_item_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_item_profile_image"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/user_item_profile_image"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:text="Username"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvRegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_item_user_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/user_item_profile_image"
+        android:maxLines="1"
+        android:text=""
+         />
+
+
+</RelativeLayout>

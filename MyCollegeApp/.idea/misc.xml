@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-hdpi/user_icon_background.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-mdpi/buttonstyle.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-mdpi/cerclebackgroundpink.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-mdpi/cerclebackgroundpurple.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-mdpi/icon_project1_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-mdpi/toppers.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/background_left.xml" value="0.18125" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/background_right.xml" value="0.18125" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/ic_baseline_mark_chat_unread_18.xml" value="0.17239583333333333" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/ic_baseline_person_white_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/ic_baseline_picture_as_pdf_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.18333333333333332" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-xxxhdpi/dateofbirth_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-xxxhdpi/email_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-xxxhdpi/gender_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable-xxxhdpi/phone_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/baseline_edit_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/baseline_groups_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/baseline_home_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/baseline_mail_outline_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/baseline_vpn_key_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/button_shape.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/ic_baseline_cake_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/ic_baseline_campaign_24.xml" value="0.1712962962962963" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/ic_baseline_label_important_24.xml" value="0.2055" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/ic_baseline_military_tech_24.xml" value="0.1787037037037037" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/outline_menu_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.16944444444444445" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/drawable/text_view_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout-land/activity_sports_detail.xml" value="0.21164021164021163" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout-land/content_main.xml" value="0.21164021164021163" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout-land/fragment_clubs.xml" value="0.21164021164021163" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout-land/fragment_sports.xml" value="0.21164021164021163" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_about_us.xml" value="0.23867753623188406" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_clubs_detail.xml" value="0.20833333333333334" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_college_messages.xml" value="0.19746376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_login.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_main_chat.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_message.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_password_success_message.xml" value="0.22871376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_recycler_view.xml" value="0.19746376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_reset_password.xml" value="0.22871376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step1.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step11.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step2.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step23.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step3.xml" value="0.2269021739130435" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sign_up_step4.xml" value="0.23777173913043478" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_sports_detail.xml" value="0.20833333333333334" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_teacher_detail.xml" value="0.2" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_toppers_list.xml" value="0.19746376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/activity_verify_otp.xml" value="0.24230072463768115" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/app_bar_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/bar_layout.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/chat_item_left.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/chat_item_right.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/check_internet_dialog.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/club_detail_activity_new.xml" value="0.2359375" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_chats.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_clubs.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_home2.xml" value="0.1793478260869565" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_profile_chat.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_sports.xml" value="0.2" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_teachers.xml" value="0.1793478260869565" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/fragment_users.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/item_college_message.xml" value="0.20100502512562815" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/layout_reccler_view_toppers_list.xml" value="0.19746376811594202" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/layout_recycler_view_toppers_list.xml" value="0.264" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/profile_test.xml" value="0.213768115942029" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/sport_detail_activity.xml" value="0.24094202898550723" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/sports_and_clubs_list_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/teacher_and_club_and_sport_list_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/teacher_detail_activity.xml" value="0.20833333333333334" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/teacher_list_item.xml" value="0.20104166666666667" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/layout/user_item.xml" value="0.2296195652173913" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/menu/popup_menu_chat_person.xml" value="0.25" />
+        <entry key="..\:/MyCollegeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.128" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

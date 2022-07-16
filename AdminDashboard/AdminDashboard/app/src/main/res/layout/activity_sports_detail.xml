@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_background"
+    tools:context=".sports.SportsDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/text_background">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sportCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F4F4F4">
+
+
+                        <TextView
+                            android:id="@+id/sportLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="SPORT"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textColorProfile"
+                            android:textSize="@dimen/teacherDetailTeacherNameLabel"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/sportName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginEnd="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:fontFamily="serif"
+                            android:gravity="center"
+                            android:text="Hockey"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailTeacherNameLabel"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/sportLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sportTypeCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sportCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/constraint_background">
+
+
+                        <TextView
+                            android:id="@+id/sportTypeLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:padding="@dimen/teacherDetailInnerPadding"
+                            android:text="SPORT TYPE"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textColorProfile"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/sportType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:fontFamily="serif"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="Outdoor"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/sportTypeLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/captainCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sportTypeCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/constraint_background">
+
+
+                        <TextView
+                            android:id="@+id/captainLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginEnd="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:text="CAPTAIN"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textColorProfile"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/captain"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:fontFamily="serif"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="KOUSHIK"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/captainLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/captainContactNumberCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintTop_toBottomOf="@id/captainCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/constraint_background">
+
+
+                        <TextView
+                            android:id="@+id/captainPhoneLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:text="CAPTAIN CONTACT NUMBER"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textColorProfile"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/captainPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:fontFamily="serif"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text="9988522110"
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/captainPhoneLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/teamLegacyCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/teacherDetailMarginCardSides"
+                    android:layout_marginTop="@dimen/teacherDetailMarginCardTop"
+                    android:layout_marginRight="@dimen/teacherDetailMarginCardSides"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:layout_constraintTop_toBottomOf="@id/captainContactNumberCardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/constraint_background">
+
+
+                        <TextView
+                            android:id="@+id/teamLegacyLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginTop="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:letterSpacing="0.1"
+                            android:text="Team Legacy"
+                            android:textAllCaps="true"
+                            android:textColor="@color/textColorProfile"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/teamLegacy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginRight="@dimen/teacherDetailInnerMargin"
+                            android:layout_marginBottom="@dimen/teacherDetailInnerMargin"
+                            android:fontFamily="serif"
+                            android:paddingStart="@dimen/teacherDetailInnerPadding"
+                            android:paddingLeft="@dimen/teacherDetailInnerPadding"
+                            android:paddingBottom="@dimen/teacherDetailInnerPadding"
+                            android:text=" a) 1st Position in IISc Banglore State Level Intercollegiate Competetion\n\n b) Runners-Up Position in St.Johns Banglore State Level Intercollegiate Competetion   "
+                            android:textColor="@color/subTextColor"
+                            android:textSize="@dimen/teacherDetailLabels"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/teamLegacyLabel" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    app:layout_constraintTop_toBottomOf="@id/teamLegacyCardView" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/profileFabMargin"
+        android:layout_marginBottom="@dimen/profileFabMargin"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/profileFabMarginBottom"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@id/fabDelete"
+        app:layout_constraintEnd_toEndOf="@+id/fabDelete"
+        app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

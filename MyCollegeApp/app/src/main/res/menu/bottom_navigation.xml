@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+
+        android:icon="@drawable/home_final">
+    </item>
+    <item
+        android:id="@+id/teacher"
+        android:title="Faculty"
+        android:icon="@drawable/baseline_groups_black_36">
+    </item>
+    <item
+        android:id="@+id/club"
+        android:title="Clubs"
+        android:icon="@drawable/outline_emoji_objects_black_36">
+    </item>
+    <item
+        android:id="@+id/sports"
+        android:title="Sports"
+        android:icon="@drawable/baseline_sports_soccer_black_36">
+    </item>
+    <item
+        android:id="@+id/profileImageView"
+        android:title="Profile"
+        android:icon="@drawable/baseline_manage_accounts_black_36">
+    </item>
+
+</menu>

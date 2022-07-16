@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:width="0dp"
+            android:layout_height="30dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="SUBJECT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Class"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_column="1"
+            />
+
+    </TableRow>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/teacherSectionRecyclerView"
+      android:layout_height="100dp"
+      android:layout_width="match_parent"
+      />
+
+</TableLayout>
