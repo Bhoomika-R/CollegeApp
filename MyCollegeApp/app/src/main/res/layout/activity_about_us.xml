@@ -48,7 +48,7 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/myimage"
+                        android:src="@drawable/developer_manoj"
                         app:civ_border_color="#ADFF2F" />
 
                     <TextView
@@ -95,7 +95,7 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/myimage"
+                            android:src="@drawable/developer_mohit"
                             app:civ_border_color="#ADFF2F" />
 
                         <TextView
